@@ -1,23 +1,41 @@
-/* Description.css */
+:root {
+  /*container variables*/
+  --gridRowGap: 185px;
+  --gridColumnGap: 90px;
+
+  --maxFeaturesWidth: 1500px;
+  
+  --leftMargin: 220px;
+  --rightMargin: 160px;
+  --topMargin: 96px;
+  --bottomMargin: 165px;
+
+  /*item variables*/
+  --maxWidthItem: 800px;
+  --maxHeightItem: 110px;
+}
+
 .description-container {
     display: grid;
+    /*place-items: center;*/
+    align-items: center;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, 1fr);    /* 2 rows */
 
-    grid-row-gap: 85px;
-    grid-column-gap: 35px;
+    grid-row-gap: var(--gridRowGap);
+    grid-column-gap: var(--gridColumnGap);
     
-    max-width: 833px;
+    max-width: var(--maxFeaturesWidth);
     
-    margin-left: 82px;
-    margin-right: 84px;
-    margin-top: 96px;
-    margin-bottom: 165px;
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--topMargin);
+    margin-bottom: var(--bottomMargin);
 
   }
   
   .description-item {
-    max-width: 245px;
-    max-height: 120px;
+    max-width: var(--maxWidthItem);
+    max-height: var(--maxHeightItem);
   }
   
