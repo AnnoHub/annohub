@@ -6,12 +6,16 @@
 
 .text-container {
     display: flex;
+    
+    flex-shrink: 0;
   }
   
   .elementWithVerticalLine {
     border-left: 2px solid red; 
     margin-left: 8.5px;
     padding-left: 10px; /* Add padding to separate the line from the content */
+    
+    flex-shrink: 0;
   }
   
   p {
