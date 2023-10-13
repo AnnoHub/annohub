@@ -1,0 +1,22 @@
+/* Description.css */
+.description-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+
+    grid-row-gap: 85px;
+    grid-column-gap: 35px;
+    
+    max-width: 833px;
+    
+    margin-left: 82px;
+    margin-right: 84px;
+    margin-top: 96px;
+    margin-bottom: 165px;
+  }
+  
+  .description-item {
+    max-width: 245px;
+    max-height: 120px;
+  }
+  

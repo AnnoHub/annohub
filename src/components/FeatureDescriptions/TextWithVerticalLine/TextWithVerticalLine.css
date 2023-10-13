@@ -1,0 +1,26 @@
+/* TextWithVerticalLine.css */
+
+:root {
+    --red: #FF4C00;
+  }
+
+.text-container {
+    display: flex;
+  }
+  
+  .elementWithVerticalLine {
+    border-left: 2px solid red; 
+    margin-left: 8.5px;
+    padding-left: 10px; /* Add padding to separate the line from the content */
+  }
+  
+  p {
+    margin: 0; 
+  }
+  
+  /*
+  p {
+    border-left: 4px solid #000; 
+    padding-left: 10px; 
+    margin: 0; 
+  }*/
