@@ -1,0 +1,16 @@
+:root {
+  --font: "Space Grotesk";
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.header {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: xx-large;
+  margin-bottom: 5px;
+}
