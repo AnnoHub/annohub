@@ -13,7 +13,7 @@ function DataTypes() {
       </div>
       <div className='center'>
         <div className='container'>
-          <img src={bar} />
+          <img src={bar} alt="Something went wrong!" />
         </div>
       </div>
     </div>

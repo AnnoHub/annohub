@@ -1,0 +1,44 @@
+:root {
+    --paragraphColor: #000;
+    --distanceBtwnTitlePara: 25px;
+
+    --font: Inter;
+    --fontSize: 22px;
+    --lineSpacing: 120%;
+    --titleColor: #000;
+}
+
+.paragraph {
+    margin-top: var(--distanceBtwnTitlePara);
+    color: var(--paragraphColor);
+    font-family: var(--font);
+    font-size: var(--fontSize);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--lineSpacing);
+
+    display: block;
+    flex-shrink: 0;
+}
+
+.title {
+    color: var(--titleColor);
+    font-family: var(--font);
+    font-size: var(--fontSize);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--lineSpacing);
+    font-weight: bold;
+    
+    /*Solves shrinking issue*/
+    min-width: 200px;
+    min-height: 5px;
+
+    display: block;
+    flex-shrink: 0;
+}
+
+.layout {
+    display: block;
+    flex-shrink: 0;
+}
