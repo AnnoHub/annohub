@@ -1,9 +1,9 @@
 import React from 'react'
-import './footer.css';
-import People from './footer-people'
+import './Footer.css';
+import People from './FooterPeople'
+import Links from './FooterLinks'
+import Docs from './FooterDocs'
 //import Superiors from './footer-superiors'
-import Links from './footer-links'
-import Docs from './footer-docs'
 
 function Footer() {
     return (
