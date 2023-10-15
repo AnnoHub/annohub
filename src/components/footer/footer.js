@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css';
 import People from './footer-people'
-import Superiors from './footer-superiors'
+//import Superiors from './footer-superiors'
 import Links from './footer-links'
 import Docs from './footer-docs'
 

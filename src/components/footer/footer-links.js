@@ -5,7 +5,7 @@ function Links() {
     return (
       <div>
         <p class='footer-title'>Links</p>
-        <a class='footer-text' href="https://github.com/AnnoHub/about/">GitHub</a>
+        <a class='footer-text' href="https://github.com/AnnoHub">GitHub</a>
       </div>
     )
   }
