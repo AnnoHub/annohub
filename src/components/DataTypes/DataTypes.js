@@ -1,7 +1,5 @@
 import './DataTypesStyles.css';
 import bar from './images/Data Types.png'
-import "@fontsource/space-grotesk";
-import "@fontsource/space-grotesk/700.css";
 
 function DataTypes() {
   return (
