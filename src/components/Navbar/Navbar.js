@@ -8,7 +8,7 @@ function Navbar() {
 	return (
 		<div className='navbar-div'>
 			<div className='logo-outer'>
-				<Logo scale="0.75" width="155%" height="118%" />
+				<Logo scale="0.75" width="450px" height="160px" />
 			</div>
 			<div className='navigator-outer'>
 				<div className='navigator'>Contact Us</div>
