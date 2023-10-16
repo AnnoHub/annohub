@@ -1,5 +1,7 @@
 .navbar-div {
-    margin: 5% 5%;
+    margin: 5% 7%;
+    margin-bottom: 3%;
+
     padding: 0% 0%;
 
     display: flex;
@@ -9,10 +11,6 @@
     border-bottom: 3px solid black;
 
     justify-content: space-between;
-}
-
-.logo-outer {
-    
 }
 
 .navigator-outer {

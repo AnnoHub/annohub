@@ -1,16 +1,16 @@
 import './DataTypesStyles.css';
-import bar from './images/Data Types.png'
+import bar from './images/DataTypes.png'
 
 function DataTypes() {
   return (
-    <div>
-      <div className='center'>
-        <div className='header'>
+    <div className='data-types-outer'>
+      <div className='data-types-center'>
+        <div className='data-types-header'>
           For every data type
         </div>
       </div>
-      <div className='center'>
-        <div className='container'>
+      <div className='data-types-center'>
+        <div>
           <img src={bar} alt="Something went wrong!" />
         </div>
       </div>
