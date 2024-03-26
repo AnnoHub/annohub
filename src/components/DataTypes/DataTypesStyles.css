@@ -1,0 +1,17 @@
+.data-types-outer {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.data-types-center {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.data-types-header {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: xx-large;
+  margin-bottom: 5px;
+}

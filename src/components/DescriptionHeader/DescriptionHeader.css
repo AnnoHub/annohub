@@ -1,0 +1,101 @@
+:root {
+  --descHead-container-padding: 5px;
+  --descHead-container-padding-left: 7%;
+  --descHead-container-bg-color: #fff;
+  --descHead-container-border-radius: 10px;
+  --descHead-title-font-size: 50px;
+  --descHead-title-font-family: 'Space Grotesk', sans-serif;
+  --descHead-title-font-weight: bold;
+  --descHead-title-color: #000000;
+  --descHead-title-margin-bottom: 60px;
+  --descHead-title-text-align: left;
+  --descHead-title-line-height: 1.5;
+  --descHead-highlight-padding: 3px 7px;
+  --descHead-highlight-border-radius: 30px;
+  --descHead-company-highlight-bg-color: rgba(68, 255, 187, 0.25);
+  --descHead-people-highlight-bg-color: rgba(255, 76, 204, 0.25);
+  --descHead-tag-font-size: 30px;
+  --descHead-tag-padding: 6px 7px;
+  --descHead-tag-border-radius: 30px;
+  --descHead-tag-margin-left: 10px;
+  --descHead-org-tag-bg-color: #44FFBB;
+  --descHead-per-tag-bg-color: #FF4CCC;
+  --descHead-tag-color: #fff;
+  --descHead-and-margin: 0 10px;
+  --descHead-description-font-size: 25px;
+  --descHead-description-font-family: 'Inter', sans-serif;
+  --descHead-description-color: #6B6860;
+  --descHead-description-margin-bottom: 120px;
+  --descHead-description-line-height: 1.5;
+  --descHead-description-padding-top: 21px;
+  --descHead-description-padding-left: 128px;
+}
+
+.descHead-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  padding: var(--descHead-container-padding);
+  padding-bottom: calc(var(--descHead-container-padding) * 2.63);
+  padding-left: var(--descHead-container-padding-left);
+  border-radius: var(--descHead-container-border-radius);
+  background-color: var(--descHead-container-bg-color);
+}
+
+.descHead-title {
+  font-size: var(--descHead-title-font-size);
+  font-family: var(--descHead-title-font-family);
+  font-weight: var(--descHead-title-font-weight);
+  color: var(--descHead-title-color);
+  margin-bottom: var(--descHead-title-margin-bottom);
+  text-align: var(--descHead-title-text-align);
+  line-height: var(--descHead-title-line-height);
+}
+
+.descHead-highlight.descHead-company {
+  background-color: var(--descHead-company-highlight-bg-color);
+  padding: var(--descHead-highlight-padding);
+  border-radius: var(--descHead-highlight-border-radius);
+  display: inline-flex;
+  align-items: center;
+}
+
+.descHead-highlight.descHead-people {
+  background-color: var(--descHead-people-highlight-bg-color);
+  padding: var(--descHead-highlight-padding);
+  border-radius: var(--descHead-highlight-border-radius);  
+  display: inline-flex;
+  align-items: center;
+}
+
+.descHead-tag.descHead-org {
+  background-color: var(--descHead-org-tag-bg-color);
+  color: var(--descHead-tag-color);
+  font-size: var(--descHead-tag-font-size);
+  padding: var(--descHead-tag-padding);
+  border-radius: var(--descHead-tag-border-radius);
+  margin-left: var(--descHead-tag-margin-left);
+}
+
+.descHead-tag.descHead-per {
+  background-color: var(--descHead-per-tag-bg-color);
+  color: var(--descHead-tag-color);
+  font-size: var(--descHead-tag-font-size);
+  padding: var(--descHead-tag-padding);
+  border-radius: var(--descHead-tag-border-radius);
+  margin-left: var(--descHead-tag-margin-left);
+}
+
+.descHead-and {
+  margin: var(--descHead-and-margin);
+}
+
+.descHead-description {
+  text-align: var(--descHead-title-text-align);
+  font-size: var(--descHead-description-font-size);
+  font-family: var(--descHead-description-font-family);
+  color: var(--descHead-description-color);
+  margin-bottom: var(--descHead-description-margin-bottom);
+  line-height: var(--descHead-description-line-height);
+  padding-top: var(--descHead-description-padding-top);
+  padding-left: var(--descHead-description-padding-left);
+}
